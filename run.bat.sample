@@ -1,0 +1,3 @@
+go build -o bookyourstay.exe cmd/web/main.go cmd/web/middleware.go cmd/web/send-mail.go cmd/web/routes.go
+
+bookyourstay.exe -dbname=bookyourstay -dbuser=someuser -cache=false -production=false

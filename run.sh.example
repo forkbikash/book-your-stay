@@ -1,0 +1,4 @@
+#!/bin/bash
+
+go build -o bookyourstay cmd/web/*.go
+./bookyourstay -dbname=bookyourstay -dbuser=someuser -cache=false -production=false
